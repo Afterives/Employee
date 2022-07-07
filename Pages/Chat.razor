@@ -31,13 +31,13 @@
 <div class="container">
     <div class="row">
         <div class="col-3">
-            <input @bind="usernameInput"type="text" class="form-control" placeholder="Your name" readonly="@isUserReadonly"/>
+            <input @bind="usernameInput"type="text" class="form-control" placeholder="Twoje imię" readonly="@isUserReadonly"/>
         </div>
         <div class="col-6">
             <textarea @bind="messageInput" class="form-control" type="text" placeholder="Zacznij pisać..."></textarea>
         </div>
         <div class="col-3">
-            <button type="button" @onclick="Send" disabled="@(!IsConnected)" class="btn btn-primary">Send</button>
+            <button type="button" @onclick="Send" disabled="@(!IsConnected)" class="btn btn-primary">Wyślij</button>
         </div>
     </div>
 </div>

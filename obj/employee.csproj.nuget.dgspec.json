@@ -43,6 +43,14 @@
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.9.8, )"
+            },
+            "bunit.web": {
+              "target": "Package",
+              "version": "[1.9.8, )"
             }
           },
           "imports": [

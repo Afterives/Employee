@@ -98,7 +98,7 @@ using employee.Data.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "C:\Projekt_inżyniernia\employee\Pages\Index.razor"
+#line 21 "C:\Projekt_inżyniernia\employee\Pages\Index.razor"
        
     [CascadingParameter]
     private Task<AuthenticationState> authenticationState { get; set; }

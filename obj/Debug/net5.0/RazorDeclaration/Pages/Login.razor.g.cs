@@ -105,7 +105,7 @@ using employee.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Projekt_inżyniernia\employee\Pages\Login.razor"
+#line 27 "C:\Projekt_inżyniernia\employee\Pages\Login.razor"
        
     private class Model
     {

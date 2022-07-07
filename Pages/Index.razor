@@ -4,22 +4,17 @@
 <AuthorizeView>
     <Authorized>
         <h1>Witaj, @context.User.Identity.Name!</h1>
+        <img src="~/css/images/avatar.webp" alt="Logo" />
     </Authorized>
     <NotAuthorized>
-        <h1>Witaj!</h1>
+        <h1>Witaj! Aby wyświetlić opcje w NavMenu zaloguj się!</h1>
     </NotAuthorized>
 </AuthorizeView>
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
 
 <AuthorizeView>
     <Authorized>
         <br /> <br />
-        <button class="btn btn-outline-primary" @onclick="DisplayGreetingAlert">Display Greeting Alert</button>
+        <button class="btn btn-outline-primary" @onclick="DisplayGreetingAlert"><p>Display Greeting Alert</p></button>
     </Authorized>
 </AuthorizeView>
 
